@@ -1,101 +1,38 @@
-<<<<<<< HEAD
-//triangle, rectangle, circle
-
 #include <stdio.h>
 
-// int triangle(int b, int h);
-// int rectangle(int l, int b);
-// float circle(int r);
+int areaTriangle(int, int);
+int areaRectangle(int, int);
+int areaCircle(int);
 
+int main()
+{
+    int l, b, area, a1, a2;
+    printf("Enter the length : ");
+    scanf("%d", &l);
 
+    printf("Enter the width : ");
+    scanf("%d", &b);
 
+    area = areaTriangle(l, b);
+    area = areaRectangle(l, b);
+    area = areaCircle(l);
 
+    printf("The area of the triangle : %d\n", area);
+    printf("The area of the rectangle : %d\n", a1);
+    printf("The area of the rectangle : %d\n", a2);
 
-
-float triangle(int b, int h) {
-	float area;
-	area = 0.5 * b * h;
-	return area;
+    return 0;
 }
 
-float rectangle(int l, int b) {
-	float area;
-	area = l * b;
-	return area;
+int areaTriangle(int h, int b)
+{
+    return (int)(0.5 * h * b);
 }
-
-float circle(int r) {
-	float area;
-	area = 22/7 * r * r;
-	return area;
+int areaRectangle(int l, int w)
+{
+    return l * w;
 }
-
-
-
-
-
-
-
-int main(void) {
-	printf("Enter 1 for triangle.\n");
-	printf("Enter 2 for rectangle.\n");
-	printf("Enter 3 for circle.\n");
-
-	int cv;
-	float a, b;
-
-	scanf("%d", &cv);
-
-	switch(cv) {
-		case 1:
-			printf("Enter the base.\n");
-			scanf("%f" , &a);
-			printf("Enter the height.\n");
-			scanf("%f" , &a);
-			printf("The area of the triangle is %f", triangle(a, b));
-		break;
-
-		case 2:
-			printf("Enter the length.\n");
-			scanf("%f" ,&a);
-			printf("Enter the breadth.\n");
-			scanf("%f" ,&a);
-			printf("The area of the rectangle is %f", rectangle(a, b));
-		break;
-
-		case 3:
-			printf("Enter the radius.\n");
-			scanf("%f" ,&a);
-			printf("The area of the circle is %f", circle(a));
-		break;
-		
-		default:
-			printf("Error.\nPlease try again.");
-			main();
-		break;
-	}
-=======
-//triangle, rectangle, circle
-
-#include <stdio.h>
-
-int triangle(int b, int h);
-int rectangle(int l, int b);
-int circe(int r);
-
-int main(void) {
-	printf("Enter 1 for triangle.\n");
-	printf("Enter 2 for rectangle.\n");
-	printf("Enter 3 for circle.\n");
-
-	int cv;
-
-	scanf("%d", &cv);
-
-	switch(cv) {
-		case 1:
-			
-		break;
-	}
->>>>>>> 5c170a337c3a47b3ee8d062f8bf6353b19b04cd0
+int areaCircle(int r)
+{
+    return (22/7)*r*r;
 }
