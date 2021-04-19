@@ -20,8 +20,6 @@ int main()
     printf("The area of the triangle : %d\n", area);
     printf("The area of the rectangle : %d\n", a1);
     printf("The area of the rectangle : %d\n", a2);
-
-    return 0;
 }
 
 int areaTriangle(int h, int b)
