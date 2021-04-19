@@ -1,3 +1,11 @@
+/*
+ 	* Initially, the first array is accepted
+	* The first array is copied to the mul array.
+	* The second array is accepted.
+	* The second array's data is multiplies to the mul array.
+	* the mul array is printed
+*/
+
 #include <stdio.h>
 
 int main(void) {
@@ -6,11 +14,15 @@ int main(void) {
 	scanf("%d", &n);
 	int a[n], b[n], mul[n];
 
+	//Accepting first array and coping it to mul array
+
 	printf("Enter the first elements.\n");
 	for(int i = 0;i < n;i++) {
 		scanf("%d", &a[i]);
 		mul[i] = a[i];
 	}
+
+	//Accepting second array and multiplying it to the sum array
 
 	printf("Enter the second elements.\n");
 	for(int i = 0;i < n;i++) {
@@ -24,3 +36,11 @@ int main(void) {
 		printf("\n");
 	}
 }
+
+/*
+	* int n 			 	-->     to store the size of the arrays
+	* int a[]       	    -->		to store data of the fitst array
+	* int b[]               -->		to store data of the second array
+	* int mul[]  	        -->		to store sum of the fitst and second array
+ 	* int i                 -->		to itterate through loops
+*/
