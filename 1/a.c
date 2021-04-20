@@ -25,5 +25,5 @@ int main(void) {
 /*
 	* int arr[]    -->    Array to store the data
 	* int sum      -->    To store the sum of the array
-	* int i        -->    To Itterate through the loop
+	* int i        -->    To Itterate through the loop 
 */
