@@ -10,8 +10,7 @@ int main() {
 	printf("Enter the second String: ");
 	gets(s2);
 
-	if(strcmp(s1, s2) == 0)
-		printf("Same");
-	else
-		printf("Not Same.");
+	if(!strcmp(s1, s2) == 0)
+		printf("Not ");
+	printf("Same.");
 }
