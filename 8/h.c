@@ -24,3 +24,10 @@ int main(void) {
 		printf("\n");
 	}
 }
+
+/*
+	* int n				   -->		to store the size of the array
+	* int arr[][]          -->		to store data of the fitst array
+ 	* int i                -->		to itterate through the outter loop
+ 	* int j                -->		to itterate through the inner loop
+*/

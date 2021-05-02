@@ -30,10 +30,10 @@ int main()
 		}
 
 	printf("The number was not found.");
-}}
+}
 
 /*
-	* int n				   -->		to store the size of the ayyar
+	* int n				   -->		to store the size of the array
 	* int arr[][]          -->		to store data of the fitst array
  	* int i                -->		to itterate through the outter loop
 */

@@ -26,3 +26,11 @@ int main(void) {
 
 	printf("\nMaximum = %d", max);
 }
+
+/*
+	* int n				   -->		to store the size of the array
+	* int arr[][]          -->		to store data of the fitst array
+	* int max              -->      to store the largest number at any instance
+ 	* int i                -->		to itterate through the outter loop
+ 	* int j                -->		to itterate through the inner loop
+*/
