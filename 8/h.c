@@ -1,4 +1,4 @@
-/**
+/*
 	* A 3 by 3, 2 dimentional array is declared.
 	* a nested loop is run 3*3 times to accept all 9 numbers of the array.
 	* a nested loop is run 3*3 times to printthe 9 numbers in the array.
