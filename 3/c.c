@@ -1,4 +1,4 @@
-/**
+/*
 	* We start with initializing an array
 	* The position to be deleted is entered by the user
 	* Every element of the array after the element to be deleted is shifted to left by 1 position
