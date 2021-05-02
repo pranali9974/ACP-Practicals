@@ -1,4 +1,4 @@
-/**
+/*
 	* In this algoriths, the array is sequentially scanned many times
 	* During each itteration, the pairs of consiquetive elements are compared
 	* The compared elements are interchanges if necessary to bring the in a specific order
