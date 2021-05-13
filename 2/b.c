@@ -36,7 +36,7 @@ int main(void) {
 	}
 }
 
-/*
+/*    Variable List
 	* int n 			 	-->     to store the size of the arrays
 	* int a[]       	    -->		to store data of the fitst array
 	* int b[]               -->		to store data of the second array
@@ -44,7 +44,7 @@ int main(void) {
  	* int i                 -->		to itterate through loops
 */
 
-/* Output
+/*    Output
 	* Enter the size of the arrays.
 	> 5
 	* Enter the first elements.
