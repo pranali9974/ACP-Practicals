@@ -1,19 +1,18 @@
-//WAP to print SUM of any 10 numbers using One-Dimentional array.
-
 /*
-	* A one dimentional array with 10 veriables is declared.
-	* All the numbers are taken as inputs from the user.
+	* We declare a one dimentional array eith 10 veriables.
+	* We take all the numbers as inputs from the user.
 	* The sum of the numbers is saved in a variable.
+	* We print the sum thereby declaring the sum of the array.
 */
 
 #include <stdio.h>
 
 int main(void) {
 	//Declaring the array and variable sum
-	int n = 10, arr[n], sum = 0;
+	int arr[10], sum = 0;
 	
 	//Accepting input values for the array
-	printf("Enter 10 integers.\n");
+	printf("Enter 10 integer numbers.\n");
 	for(int i = 0;i < 10;i++) {
 		scanf("%d", &arr[i]);
 		//Adding the previous sum with currently entered value
@@ -23,24 +22,8 @@ int main(void) {
 	printf("sum = %d", sum);
 }
 
-/*    Variable List
-	* int arr[]    -->    Array to store the entered numbers
+/*
+	* int arr[]    -->    Array to store the data
 	* int sum      -->    To store the sum of the array
 	* int i        -->    To Itterate through the loop 
-	* int n        -->    To store the size of the array
-*/
-
-/*    Output
-	* Enter 10 integers.
-	> 1
-	> 2
-	> 3
-	> 4
-	> 5
-	> 6
-	> 7
-	> 8
-	> 9
-	> 10
-	* sum = 55
 */

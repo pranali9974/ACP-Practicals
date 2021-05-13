@@ -38,8 +38,6 @@ int main(void) {
 	}
 }
 
-
-
 /*
  	* int i              -->		to itterate through the outter loop
 	* int j              -->		to itterate through the inner loop
