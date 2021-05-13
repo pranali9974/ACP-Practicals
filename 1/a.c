@@ -23,14 +23,14 @@ int main(void) {
 	printf("sum = %d", sum);
 }
 
-/*
+/*    Variable List
 	* int arr[]    -->    Array to store the entered numbers
 	* int sum      -->    To store the sum of the array
 	* int i        -->    To Itterate through the loop 
 	* int n        -->    To store the size of the array
 */
 
-/* Output
+/*    Output
 	* Enter 10 integers.
 	> 1
 	> 2
