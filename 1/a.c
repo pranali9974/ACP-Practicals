@@ -29,3 +29,18 @@ int main(void) {
 	* int i        -->    To Itterate through the loop 
 	* int n        -->    To store the size of the array
 */
+
+/* Output
+	* Enter 10 integers.
+	> 1
+	> 2
+	> 3
+	> 4
+	> 5
+	> 6
+	> 7
+	> 8
+	> 9
+	> 10
+	* sum = 55
+*/
