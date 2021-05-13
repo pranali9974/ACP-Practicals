@@ -29,7 +29,7 @@ int main(void) {
 		mul[i] *= b[i];
 	}
 
-	printf("\n\n\n");
+	printf("\n");
 	for(int i = 0;i < n;i++){
 		printf("%d\t", mul[i]);
 		printf("\n");
@@ -42,4 +42,27 @@ int main(void) {
 	* int b[]               -->		to store data of the second array
 	* int mul[]  	        -->		to store sum of the fitst and second array
  	* int i                 -->		to itterate through loops
+*/
+
+/* Output
+	* Enter the size of the arrays.
+	> 5
+	* Enter the first elements.
+	> 2
+	> 4
+	> 6
+	> 8
+	> 10
+	* Enter the second elements.
+	> 1
+	> 3
+	> 5
+	> 7
+	> 9
+
+	* 2
+	* 12
+	* 30
+	* 56
+	* 90
 */
