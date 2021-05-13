@@ -1,3 +1,5 @@
+//WAP to delete a given element from One-D array of size 10.
+
 /*
 	* An array is initialised.
 	* The position to be deleted is entered by the user.
