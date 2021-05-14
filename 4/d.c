@@ -40,7 +40,7 @@ int main(void) {
 	* int i        -->    To Itterate through the loop
 */
 
-/*
+/*    Output
 	* Eter 9 elements
 	> 1
 	> 2
