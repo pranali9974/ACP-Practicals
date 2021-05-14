@@ -1,3 +1,5 @@
+//WAP to find maximum from given 2-D array.
+
 /*
 	* A 3*3, two dimentional array is declared.
 	* The array is itterated through to accept all numbers.
