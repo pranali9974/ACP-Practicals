@@ -1,7 +1,9 @@
+//WAP to check a given element is exist or not from 1-D array of size 10.
+
 /*
 	* Initially, an array is accepted from the user.
 	* The number to be found is accepted.
-	* that array is cycles through untill the desired number is found.
+	* That array is cycles through until the desired number is found.
 	* the position of the array is printed.
 */
 
@@ -32,8 +34,22 @@ int main()
 	printf("The number was not found.");
 }
 
-/*
+/*    Variable List
 	* int n				   -->		to store the size of the array
 	* int arr[][]          -->		to store data of the fitst array
  	* int i                -->		to itterate through the outter loop
+*/
+
+/*    Output
+	* Enter the length of the One Dimentional Array
+	> 5
+	* Enter the element(s)
+	> 1
+	> 7
+	> -20
+	> 0
+	> 2
+	* Enter element to Search for.
+	> 0
+	* 0 found at position 4
 */
