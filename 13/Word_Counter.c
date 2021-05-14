@@ -1,18 +1,10 @@
-/*
-	* 
-*/
-
 #include <stdio.h>
 
 int main(void) {
-	printf("Enter the size of the first array.\n");
-	int n, c = 1;
-	scanf("%d", n);
-	char str[n];
+	int n = 100, c = 1;
+	char str[100];
 
 	printf("Enter the String:");
-	gets(str);
-	printf("rfb");
 	gets(str);
 
 	for(int i = 0;str[i] != '\0';i++)
