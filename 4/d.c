@@ -1,12 +1,5 @@
 //WAP to insert an element in 1-D array at specified location of size 10.
 
-/*
-	* A one dimentional array with 10 veriables.
-	* First 9 numbers are taked as inputs from the user.
-	* The numbers after the insertion point are shiftd to right.
-	* The number is inserted at the insertion point.
-*/
-
 #include <stdio.h>
 
 int main(void) {
@@ -19,11 +12,9 @@ int main(void) {
 	printf("Enter the position to insert in.\n");
 	scanf("%d", &p);
  
-	//shifting elements after p to right
 	for(int i = n;n >= p;n--)
 		arr[n] = arr[n-1];
 
-	//Inserting at position p
 	printf("Enter the value to insert\n");
 	scanf("%d", &arr[p - 1]);
 
@@ -32,13 +23,6 @@ int main(void) {
 	for (int i = 0;i < 10;i++)
 		printf("%d\n", arr[i]);
 }
-
-/*    Variable List
-	* int n        -->    To store the size of the array
-	* int arr[]    -->    Array to store the data
-	* int p        -->    To store the position for insertion
-	* int i        -->    To Itterate through the loop
-*/
 
 /*    Output
 	* Eter 9 elements
