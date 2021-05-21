@@ -32,6 +32,6 @@ int main(void) {
 	> 0
 	> -19
 	> 100
-
+	
 	* Maximum = 100
 */
