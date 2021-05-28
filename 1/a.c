@@ -1,3 +1,5 @@
+//WAP to print SUM of any 10 numbers using One-D array.
+
 #include <stdio.h>
 
 int main(void) {
