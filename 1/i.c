@@ -1,7 +1,11 @@
+//WAP to insert an element in 2-D array at specified location of size.
+
 #include <stdio.h>
 
 int main(void) {
 	int n = 3, nn = n*n, arr[n][n], temp[nn], pp[2], p;
+
+	printf("Enter the %d numbers.\n", nn-1);
 
 	for(int i = 0;i < n;i++)
 		for(int j = 0;j < n;j++) {
@@ -36,3 +40,23 @@ int main(void) {
 		printf("\n");
 	}
 }
+
+/*    Output
+	* Enter the 8 numbers.
+	> 1
+	> 2
+	> 3
+	> 5
+	> 6
+	> 7
+	> 8
+	> 9
+	* Enter the position to insert.
+	> First: 1
+	> Second: 0
+	* Enter the value to insert
+	> 4
+	* 1       2       3
+	* 4       5       6
+	* 7       8       9
+*/
