@@ -1,12 +1,5 @@
 //WAP to check given string is palindrome or not.
 
-/*
-	* A string is declared and accepted.
-	* The string is copied to a second string.
-	* The second string is reversed.
-	* The two strings are compared using the strcmp function.
-*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -24,11 +17,6 @@ int main() {
 
 	printf("Palindrome");
 }
-
-/*    Variable List
-	* char str[]        -->        to store the first string
-	* char strr[]       -->        to store the second string
-*/
 
 /*    Output
 	* Enter the first String: AkshhskA

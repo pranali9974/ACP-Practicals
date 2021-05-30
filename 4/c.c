@@ -1,10 +1,5 @@
 //WAP to compare two strings to check whether they are equal or not.
 
-/*
-	* Two strings are declared and accepted.
-	* strcmp function is used to compare the strings.
-*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -20,11 +15,6 @@ int main() {
 		printf("Not ");
 	printf("Same.");
 }
-
-/*    Variable List
-	* char s1[]        -->        to store the first string
-	* char s2[]        -->        to store the second string
-*/
 
 /*    Output
 	* Enter the first String: Aksh Desai

@@ -1,11 +1,5 @@
 //WAP to read a string and count the no. of words in a string.
 
-/*
-	* A string is declared and accepted.
-	* The number of blankspaces are counted.
-	* The above mentioned number is added by 1 to get the number of words.
-*/
-
 #include <stdio.h>
 
 int main(void) {
@@ -21,12 +15,6 @@ int main(void) {
 
 	printf("Number of words: %d", c);
 }
-
-/*    Variable List
-	* int c        -->        to count the number of whitespaces
-	* char str[]   -->        to store the string
-	* int i        -->        to itterate through the loop
-*/
 
 /*    Output
 	* Enter the String:My name is aksh desai
