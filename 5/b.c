@@ -2,7 +2,7 @@
 
 #include<stdio.h>  
 
-int main(){	 
+int main(void){	 
 	printf("The file name is :%s\n", __FILE__ );
 	printf("The date is :%s\n", __DATE__ );
 	printf("The time :%s\n", __TIME__ );
