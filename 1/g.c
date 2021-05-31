@@ -1,8 +1,7 @@
 //WAP to check a given element is exist or not from 1-D array of size 10.
 
 #include <stdio.h>
-int main()
-{
+int main(void) {
 	int n, num;
 	printf("Enter the length of the One Dimentional Array\n");
 	scanf("%d", &n);

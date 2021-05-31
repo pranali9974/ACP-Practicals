@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
 	int n = 10, d, arr[n];
 
 	printf("Enter the %d element(s)\n", n);
