@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main(void) {
 	char first_string[5000], second_string[5000], third_string[10000];
 	int i;
 	printf("Enter the first String: ");

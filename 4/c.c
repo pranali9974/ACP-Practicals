@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main(void) {
 	char s1[5000], s2[5000];
 
 	printf("Enter the first String: ");

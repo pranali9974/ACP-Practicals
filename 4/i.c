@@ -1,3 +1,5 @@
+//WAP to read a string and count vowels in a string.
+
 #include <stdio.h>
 
 int main(void) {

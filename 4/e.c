@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
 	char str[5000], c, cr;
 
 	printf("Enter the String.\n");

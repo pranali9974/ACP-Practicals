@@ -1,7 +1,8 @@
 //WAP to read and print two different strings.
 
 #include<stdio.h>
-int main() {
+
+int main(void) {
 	char s1[5000];
 	char s2[5000];
 

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main(void) {
 	int len;
 	char s1[50000], s2[5000], s3[10000];
 
