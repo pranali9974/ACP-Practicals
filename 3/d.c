@@ -6,8 +6,7 @@ int areaTriangle(int, int);
 int areaRectangle(int, int);
 int areaCircle(int);
 
-int main()
-{
+int main(void) {
     int l, b, area, cv;
 
     printf("Enter 1 for triangle.\n");

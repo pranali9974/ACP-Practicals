@@ -1,11 +1,20 @@
 //WAP function program to print binary equivalent of given number
 
 #include <stdio.h>
-int main() {
-	int a[10],n,i;
+
+void binary(int n);
+
+int main(void) {
+	int n;
 
 	printf("Enter the number\n");
 	scanf("%d",&n);
+
+	binary(n);
+}
+
+void binary(int n) {
+	int a[10], i;
 
 	for(i = 0;n > 0;i++) {
 		a[i] = n % 2;
