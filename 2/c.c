@@ -4,7 +4,7 @@
 
 void sort(int n, int* ptr);
 
-int main()
+int main(void)
 {
 	int n;
 	printf("Enter the size of the array.\n");
