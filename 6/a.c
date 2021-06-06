@@ -6,7 +6,6 @@
 struct books {
 	char name[5000], author[5000];
 	int price;
-	// char author[5000];
 };
 
 
@@ -26,6 +25,8 @@ int main(void) {
 	scanf("%d", &t);
 	book.price = t;
 
+	printf("\n");
+
 	printf("Book name: %s\n", book.name);
 	printf("Book author: %s\n", book.author);
 	printf("Book price: %d\n", book.price);
@@ -38,6 +39,7 @@ int main(void) {
 	> Desai
 	* Enter the price of the book.
 	> 9
+	* 
 	* Book name: Aksh
 	* Book author: Desai
 	* Book price: 9
