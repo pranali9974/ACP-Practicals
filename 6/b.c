@@ -12,14 +12,17 @@ struct student {
 
 int main(void) {
 	int tmp;
-	char t[5000];
+	char t[5000], tt;
 	struct student s[5];
 
 	printf("Enter the 5 names.\n");
 	for(int i = 0;i < 5;i++){gets(t);strcpy(s[i].name, t);}
 	printf("Enter the 5 rool numbers.\n");
 	for(int i = 0;i < 5;i++){scanf("%d", &tmp);s[i].rollno = tmp;}
-	printf("Enter the genders of the 5 students.\n");
+	printf("Enter the genders of the 5 students.\nEnter M or F.\n");
+	for(int i = 0;i < 5;i++){scanf("%c", &tt);s[i].gender = tt;
+	printf("Enter for %d", i);}
+	// for(int i = 0;i < 5;i++){gets(t);strcpy(s[i].gender, t);}
 	// for(int i = 0;i < 5;i++){gets(t);strcpy(s[i].gender, t);}
 	printf("Enter the height of the 5 students.\n");
 	for(int i = 0;i < 5;i++){scanf("%d", &tmp);s[i].height = tmp;}
